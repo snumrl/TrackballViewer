@@ -1,7 +1,6 @@
 # Trackball Viewer
-![teaser](./trackballviewer.jpg)
-<img src="./trackballviewer.jpg" alt="drawing" width="500"/>
 
+<img src="./trackballviewer.jpg" alt="drawing" width="400"/>
 
 ## Abstract
 This TrackballViewer, written by Jehee Lee in 2025, is freeware. You can use, modify, redistribute
