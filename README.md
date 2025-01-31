@@ -9,8 +9,8 @@ I use this code mainly for teaching undergraduate computer graphics courses.
 
 ## Usage
 
-**[drag]** Rotation
+**[drag]**: Rotation
 
-**[shift]+[drag]** Translation
+**[shift]+[drag]**: Translation
 
-**[control]+[drag]** Dolly-in/Dolly-out
+**[control]+[drag]**: Dolly-in/Dolly-out
