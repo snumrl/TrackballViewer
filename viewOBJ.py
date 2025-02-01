@@ -78,12 +78,7 @@ glDepthFunc(GL_LESS)
 # Add your geometry here.
 #
 scene = pyglet.model.load("logo3d.obj")
-scene.matrix = Mat4.from_translation(Vec3(-1.5,0.0,0.0)) @ Mat4.from_rotation(math.pi/4,Vec3(1.0,0.0,0.0))
 models = scene.create_models(batch=batch)
-
-vertex_list = program.vertex_list(3, GL_TRIANGLES, batch, None,
-   	position=('f', (.2, .3, 0,  -.2, -.25, 0,  .2, -.35, 0)),
-	colors=('f', (1, 0, 0, 1,  0, 1, 0, 1,  0.3, 0.3, 1, 1)))
 		
 camera.resize( window, width, height )
 	
